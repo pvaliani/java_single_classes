@@ -19,4 +19,10 @@ public class CalculatorTest {
     public void calculatorCanAdd(){
         assertEquals(4, calculator.add(2,2));
     }
+
+
+    @Test
+    public void calculatorCanSubtract(){
+        assertEquals(2,calculator.subtract(4,2));
+    }
 }
