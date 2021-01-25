@@ -28,7 +28,12 @@ public class CalculatorTest {
 
 //    test multiplication
     @Test
-    public void setCalculatorCanMultiply(){
+    public void CalculatorCanMultiply(){
         assertEquals(4, calculator.multiply(2,2));
+    }
+//    test division
+    @Test
+    public void calculatorCanDivide(){
+        assertEquals(2, calculator.divide(4,2), 0.00);
     }
 }
