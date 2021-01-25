@@ -18,5 +18,9 @@ public class WaterBottle {
         this.volume = 0;
     }
 
+    public void fillBottleFromZero(){
+        this.volume = 100;
+    }
+
 
 }
