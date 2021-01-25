@@ -20,9 +20,15 @@ public class CalculatorTest {
         assertEquals(4, calculator.add(2,2));
     }
 
-
+// test subtraction
     @Test
     public void calculatorCanSubtract(){
         assertEquals(2,calculator.subtract(4,2));
+    }
+
+//    test multiplication
+    @Test
+    public void setCalculatorCanMultiply(){
+        assertEquals(4, calculator.multiply(2,2));
     }
 }
