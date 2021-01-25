@@ -14,10 +14,16 @@ public class WaterBottleTest {
         waterBottle = new WaterBottle(100);
     }
 
-// test water bottle has a volume
+// test water bottle has a volume and that it is 100
     @Test
     public void hasVolume(){
         assertEquals(100, waterBottle.getVolume());
+    }
+
+    @Test
+    public void canDrink(){
+        waterBottle.drink();
+        assertEquals(90,waterBottle.getVolume());
     }
 
 
